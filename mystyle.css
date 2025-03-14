@@ -1,0 +1,49 @@
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    }
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body { 
+    background-color:rgb(179, 174, 174);
+    background-image: url("paper.gif");
+    padding: 3em;
+    }
+ul {
+    list-style-type: circle;
+    color:rgb(112, 42, 42);  
+    }
+  img {
+    transition: transform .5s;
+  }
+  img:hover {
+    transform: scale(1.1);  }
+h1,h2 {
+    color: rgb(48, 1, 1);
+    font-size: 32px; 
+    }
+p {
+    color: rgb(61, 5, 5);
+    font-size: 20px;
+    }
+a {
+    color: rgb(62, 136, 233);
+    font-size:20px;
+    }
+a:hover{
+    font-size:25px;
+    }
